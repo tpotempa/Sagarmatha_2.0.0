@@ -1,0 +1,11 @@
+flowchart LR
+    A>"DATA"] --> B["Schema<br>inference"]
+    B --> C["Schema<br>evolution"]
+    C --> D["Data<br>merging"]
+    D --> E["Data<br>transformation"]
+
+    style A fill:#f0f0f0,stroke:#999,stroke-width:2px,color:#333
+    style B fill:#eaf2ff,stroke:#3973ac,stroke-width:2px,color:#16324f,min-width:150px,padding:20px
+    style C fill:#eaf2ff,stroke:#3973ac,stroke-width:2px,color:#16324f,min-width:150px,padding:20px
+    style D fill:#eaf2ff,stroke:#3973ac,stroke-width:2px,color:#16324f,min-width:150px,padding:20px
+    style E fill:#f8d7da,stroke:#a94442,stroke-width:2px,color:#58151c,min-width:150px,padding:20px
